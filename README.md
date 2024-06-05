@@ -1,5 +1,5 @@
 # ubc-workday-safari-conversion
-Not my project, just a conversion of it to work with safari.
+Not my project, just a conversion of it into swift to work with safari.
 
 conversion of the ubc workday extension to work on safari. Original code from https://github.com/mlool/workday-calendar-extension
 
