@@ -1,0 +1,998 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60496F732C0F5C1500053BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60496F722C0F5C1500053BB8 /* AppDelegate.swift */; };
+		60496F752C0F5C1500053BB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60496F742C0F5C1500053BB8 /* SceneDelegate.swift */; };
+		60496F782C0F5C1500053BB8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 60496F772C0F5C1500053BB8 /* Base */; };
+		60496F7B2C0F5C1500053BB8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 60496F7A2C0F5C1500053BB8 /* Base */; };
+		60496F842C0F5C1500053BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60496F832C0F5C1500053BB8 /* AppDelegate.swift */; };
+		60496F872C0F5C1500053BB8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 60496F862C0F5C1500053BB8 /* Base */; };
+		60496F8F2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 60496F8E2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		60496F992C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 60496F982C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		60496F9F2C0F5C1500053BB8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 60496F632C0F5C1400053BB8 /* Base */; };
+		60496FA02C0F5C1500053BB8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 60496F632C0F5C1400053BB8 /* Base */; };
+		60496FA12C0F5C1500053BB8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496F642C0F5C1400053BB8 /* Icon.png */; };
+		60496FA22C0F5C1500053BB8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496F642C0F5C1400053BB8 /* Icon.png */; };
+		60496FA32C0F5C1500053BB8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 60496F652C0F5C1400053BB8 /* Style.css */; };
+		60496FA42C0F5C1500053BB8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 60496F652C0F5C1400053BB8 /* Style.css */; };
+		60496FA52C0F5C1500053BB8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 60496F662C0F5C1400053BB8 /* Script.js */; };
+		60496FA62C0F5C1500053BB8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 60496F662C0F5C1400053BB8 /* Script.js */; };
+		60496FA72C0F5C1500053BB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60496F672C0F5C1400053BB8 /* ViewController.swift */; };
+		60496FA82C0F5C1500053BB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60496F672C0F5C1400053BB8 /* ViewController.swift */; };
+		60496FA92C0F5C1500053BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60496F682C0F5C1500053BB8 /* Assets.xcassets */; };
+		60496FAA2C0F5C1500053BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60496F682C0F5C1500053BB8 /* Assets.xcassets */; };
+		60496FAB2C0F5C1500053BB8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60496F6A2C0F5C1500053BB8 /* SafariWebExtensionHandler.swift */; };
+		60496FAC2C0F5C1500053BB8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60496F6A2C0F5C1500053BB8 /* SafariWebExtensionHandler.swift */; };
+		60496FCA2C0F5C1500053BB8 /* logo16.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496FBE2C0F5C1500053BB8 /* logo16.png */; };
+		60496FCB2C0F5C1500053BB8 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 60496FBF2C0F5C1500053BB8 /* favicon.ico */; };
+		60496FCC2C0F5C1500053BB8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC02C0F5C1500053BB8 /* index.html */; };
+		60496FCD2C0F5C1500053BB8 /* logo512.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC12C0F5C1500053BB8 /* logo512.png */; };
+		60496FCE2C0F5C1500053BB8 /* logo48.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC22C0F5C1500053BB8 /* logo48.png */; };
+		60496FCF2C0F5C1500053BB8 /* logo128.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC32C0F5C1500053BB8 /* logo128.png */; };
+		60496FD02C0F5C1500053BB8 /* asset-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC42C0F5C1500053BB8 /* asset-manifest.json */; };
+		60496FD12C0F5C1500053BB8 /* static in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC52C0F5C1500053BB8 /* static */; };
+		60496FD22C0F5C1500053BB8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC62C0F5C1500053BB8 /* manifest.json */; };
+		60496FD32C0F5C1500053BB8 /* robots.txt in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC72C0F5C1500053BB8 /* robots.txt */; };
+		60496FD42C0F5C1500053BB8 /* logo192.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC82C0F5C1500053BB8 /* logo192.png */; };
+		60496FD52C0F5C1500053BB8 /* logo32.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC92C0F5C1500053BB8 /* logo32.png */; };
+		60496FD62C0F5C1500053BB8 /* logo16.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496FBE2C0F5C1500053BB8 /* logo16.png */; };
+		60496FD72C0F5C1500053BB8 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 60496FBF2C0F5C1500053BB8 /* favicon.ico */; };
+		60496FD82C0F5C1500053BB8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC02C0F5C1500053BB8 /* index.html */; };
+		60496FD92C0F5C1500053BB8 /* logo512.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC12C0F5C1500053BB8 /* logo512.png */; };
+		60496FDA2C0F5C1500053BB8 /* logo48.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC22C0F5C1500053BB8 /* logo48.png */; };
+		60496FDB2C0F5C1500053BB8 /* logo128.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC32C0F5C1500053BB8 /* logo128.png */; };
+		60496FDC2C0F5C1500053BB8 /* asset-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC42C0F5C1500053BB8 /* asset-manifest.json */; };
+		60496FDD2C0F5C1500053BB8 /* static in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC52C0F5C1500053BB8 /* static */; };
+		60496FDE2C0F5C1500053BB8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC62C0F5C1500053BB8 /* manifest.json */; };
+		60496FDF2C0F5C1500053BB8 /* robots.txt in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC72C0F5C1500053BB8 /* robots.txt */; };
+		60496FE02C0F5C1500053BB8 /* logo192.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC82C0F5C1500053BB8 /* logo192.png */; };
+		60496FE12C0F5C1500053BB8 /* logo32.png in Resources */ = {isa = PBXBuildFile; fileRef = 60496FC92C0F5C1500053BB8 /* logo32.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60496F902C0F5C1500053BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60496F5C2C0F5C1400053BB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60496F8D2C0F5C1500053BB8;
+			remoteInfo = "UBC Workday Side by Side Calendar Extension (iOS)";
+		};
+		60496F9A2C0F5C1500053BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60496F5C2C0F5C1400053BB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60496F972C0F5C1500053BB8;
+			remoteInfo = "UBC Workday Side by Side Calendar Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60496FB22C0F5C1500053BB8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				60496F8F2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60496FB92C0F5C1500053BB8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				60496F992C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		60496F632C0F5C1400053BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		60496F642C0F5C1400053BB8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		60496F652C0F5C1400053BB8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		60496F662C0F5C1400053BB8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		60496F672C0F5C1400053BB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60496F682C0F5C1500053BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60496F6A2C0F5C1500053BB8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		60496F6F2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UBC Workday Side by Side Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60496F722C0F5C1500053BB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60496F742C0F5C1500053BB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60496F772C0F5C1500053BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60496F7A2C0F5C1500053BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60496F7C2C0F5C1500053BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60496F812C0F5C1500053BB8 /* UBC Workday Side by Side Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UBC Workday Side by Side Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60496F832C0F5C1500053BB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60496F862C0F5C1500053BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60496F882C0F5C1500053BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60496F892C0F5C1500053BB8 /* UBC Workday Side by Side Calendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "UBC Workday Side by Side Calendar.entitlements"; sourceTree = "<group>"; };
+		60496F8E2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UBC Workday Side by Side Calendar Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60496F932C0F5C1500053BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60496F982C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UBC Workday Side by Side Calendar Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60496F9D2C0F5C1500053BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60496F9E2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "UBC Workday Side by Side Calendar.entitlements"; sourceTree = "<group>"; };
+		60496FBE2C0F5C1500053BB8 /* logo16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo16.png; path = ../../build/logo16.png; sourceTree = "<group>"; };
+		60496FBF2C0F5C1500053BB8 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = favicon.ico; path = ../../build/favicon.ico; sourceTree = "<group>"; };
+		60496FC02C0F5C1500053BB8 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = ../../build/index.html; sourceTree = "<group>"; };
+		60496FC12C0F5C1500053BB8 /* logo512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo512.png; path = ../../build/logo512.png; sourceTree = "<group>"; };
+		60496FC22C0F5C1500053BB8 /* logo48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo48.png; path = ../../build/logo48.png; sourceTree = "<group>"; };
+		60496FC32C0F5C1500053BB8 /* logo128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo128.png; path = ../../build/logo128.png; sourceTree = "<group>"; };
+		60496FC42C0F5C1500053BB8 /* asset-manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "asset-manifest.json"; path = "../../build/asset-manifest.json"; sourceTree = "<group>"; };
+		60496FC52C0F5C1500053BB8 /* static */ = {isa = PBXFileReference; lastKnownFileType = folder; name = static; path = ../../build/static; sourceTree = "<group>"; };
+		60496FC62C0F5C1500053BB8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../build/manifest.json; sourceTree = "<group>"; };
+		60496FC72C0F5C1500053BB8 /* robots.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = robots.txt; path = ../../build/robots.txt; sourceTree = "<group>"; };
+		60496FC82C0F5C1500053BB8 /* logo192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo192.png; path = ../../build/logo192.png; sourceTree = "<group>"; };
+		60496FC92C0F5C1500053BB8 /* logo32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo32.png; path = ../../build/logo32.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60496F6C2C0F5C1500053BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60496F7E2C0F5C1500053BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60496F8B2C0F5C1500053BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60496F952C0F5C1500053BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60496F5B2C0F5C1400053BB8 = {
+			isa = PBXGroup;
+			children = (
+				60496F602C0F5C1400053BB8 /* Shared (App) */,
+				60496F692C0F5C1500053BB8 /* Shared (Extension) */,
+				60496F712C0F5C1500053BB8 /* iOS (App) */,
+				60496F822C0F5C1500053BB8 /* macOS (App) */,
+				60496F922C0F5C1500053BB8 /* iOS (Extension) */,
+				60496F9C2C0F5C1500053BB8 /* macOS (Extension) */,
+				60496F702C0F5C1500053BB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60496F602C0F5C1400053BB8 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				60496F672C0F5C1400053BB8 /* ViewController.swift */,
+				60496F682C0F5C1500053BB8 /* Assets.xcassets */,
+				60496F612C0F5C1400053BB8 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		60496F612C0F5C1400053BB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60496F622C0F5C1400053BB8 /* Main.html */,
+				60496F642C0F5C1400053BB8 /* Icon.png */,
+				60496F652C0F5C1400053BB8 /* Style.css */,
+				60496F662C0F5C1400053BB8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60496F692C0F5C1500053BB8 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				60496FBD2C0F5C1500053BB8 /* Resources */,
+				60496F6A2C0F5C1500053BB8 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		60496F702C0F5C1500053BB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60496F6F2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar.app */,
+				60496F812C0F5C1500053BB8 /* UBC Workday Side by Side Calendar.app */,
+				60496F8E2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension.appex */,
+				60496F982C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60496F712C0F5C1500053BB8 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				60496F722C0F5C1500053BB8 /* AppDelegate.swift */,
+				60496F742C0F5C1500053BB8 /* SceneDelegate.swift */,
+				60496F762C0F5C1500053BB8 /* LaunchScreen.storyboard */,
+				60496F792C0F5C1500053BB8 /* Main.storyboard */,
+				60496F7C2C0F5C1500053BB8 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		60496F822C0F5C1500053BB8 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				60496F832C0F5C1500053BB8 /* AppDelegate.swift */,
+				60496F852C0F5C1500053BB8 /* Main.storyboard */,
+				60496F882C0F5C1500053BB8 /* Info.plist */,
+				60496F892C0F5C1500053BB8 /* UBC Workday Side by Side Calendar.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		60496F922C0F5C1500053BB8 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				60496F932C0F5C1500053BB8 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		60496F9C2C0F5C1500053BB8 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				60496F9D2C0F5C1500053BB8 /* Info.plist */,
+				60496F9E2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		60496FBD2C0F5C1500053BB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60496FBE2C0F5C1500053BB8 /* logo16.png */,
+				60496FBF2C0F5C1500053BB8 /* favicon.ico */,
+				60496FC02C0F5C1500053BB8 /* index.html */,
+				60496FC12C0F5C1500053BB8 /* logo512.png */,
+				60496FC22C0F5C1500053BB8 /* logo48.png */,
+				60496FC32C0F5C1500053BB8 /* logo128.png */,
+				60496FC42C0F5C1500053BB8 /* asset-manifest.json */,
+				60496FC52C0F5C1500053BB8 /* static */,
+				60496FC62C0F5C1500053BB8 /* manifest.json */,
+				60496FC72C0F5C1500053BB8 /* robots.txt */,
+				60496FC82C0F5C1500053BB8 /* logo192.png */,
+				60496FC92C0F5C1500053BB8 /* logo32.png */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60496F6E2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60496FB32C0F5C1500053BB8 /* Build configuration list for PBXNativeTarget "UBC Workday Side by Side Calendar (iOS)" */;
+			buildPhases = (
+				60496F6B2C0F5C1500053BB8 /* Sources */,
+				60496F6C2C0F5C1500053BB8 /* Frameworks */,
+				60496F6D2C0F5C1500053BB8 /* Resources */,
+				60496FB22C0F5C1500053BB8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60496F912C0F5C1500053BB8 /* PBXTargetDependency */,
+			);
+			name = "UBC Workday Side by Side Calendar (iOS)";
+			productName = "UBC Workday Side by Side Calendar (iOS)";
+			productReference = 60496F6F2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60496F802C0F5C1500053BB8 /* UBC Workday Side by Side Calendar (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60496FBA2C0F5C1500053BB8 /* Build configuration list for PBXNativeTarget "UBC Workday Side by Side Calendar (macOS)" */;
+			buildPhases = (
+				60496F7D2C0F5C1500053BB8 /* Sources */,
+				60496F7E2C0F5C1500053BB8 /* Frameworks */,
+				60496F7F2C0F5C1500053BB8 /* Resources */,
+				60496FB92C0F5C1500053BB8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60496F9B2C0F5C1500053BB8 /* PBXTargetDependency */,
+			);
+			name = "UBC Workday Side by Side Calendar (macOS)";
+			productName = "UBC Workday Side by Side Calendar (macOS)";
+			productReference = 60496F812C0F5C1500053BB8 /* UBC Workday Side by Side Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60496F8D2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60496FAF2C0F5C1500053BB8 /* Build configuration list for PBXNativeTarget "UBC Workday Side by Side Calendar Extension (iOS)" */;
+			buildPhases = (
+				60496F8A2C0F5C1500053BB8 /* Sources */,
+				60496F8B2C0F5C1500053BB8 /* Frameworks */,
+				60496F8C2C0F5C1500053BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UBC Workday Side by Side Calendar Extension (iOS)";
+			productName = "UBC Workday Side by Side Calendar Extension (iOS)";
+			productReference = 60496F8E2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		60496F972C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60496FB62C0F5C1500053BB8 /* Build configuration list for PBXNativeTarget "UBC Workday Side by Side Calendar Extension (macOS)" */;
+			buildPhases = (
+				60496F942C0F5C1500053BB8 /* Sources */,
+				60496F952C0F5C1500053BB8 /* Frameworks */,
+				60496F962C0F5C1500053BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UBC Workday Side by Side Calendar Extension (macOS)";
+			productName = "UBC Workday Side by Side Calendar Extension (macOS)";
+			productReference = 60496F982C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60496F5C2C0F5C1400053BB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					60496F6E2C0F5C1500053BB8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					60496F802C0F5C1500053BB8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					60496F8D2C0F5C1500053BB8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					60496F972C0F5C1500053BB8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 60496F5F2C0F5C1400053BB8 /* Build configuration list for PBXProject "UBC Workday Side by Side Calendar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60496F5B2C0F5C1400053BB8;
+			productRefGroup = 60496F702C0F5C1500053BB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60496F6E2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar (iOS) */,
+				60496F802C0F5C1500053BB8 /* UBC Workday Side by Side Calendar (macOS) */,
+				60496F8D2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension (iOS) */,
+				60496F972C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60496F6D2C0F5C1500053BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60496FA12C0F5C1500053BB8 /* Icon.png in Resources */,
+				60496F782C0F5C1500053BB8 /* Base in Resources */,
+				60496F9F2C0F5C1500053BB8 /* Base in Resources */,
+				60496FA52C0F5C1500053BB8 /* Script.js in Resources */,
+				60496FA92C0F5C1500053BB8 /* Assets.xcassets in Resources */,
+				60496F7B2C0F5C1500053BB8 /* Base in Resources */,
+				60496FA32C0F5C1500053BB8 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60496F7F2C0F5C1500053BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60496FA22C0F5C1500053BB8 /* Icon.png in Resources */,
+				60496FA42C0F5C1500053BB8 /* Style.css in Resources */,
+				60496F872C0F5C1500053BB8 /* Base in Resources */,
+				60496FA62C0F5C1500053BB8 /* Script.js in Resources */,
+				60496FAA2C0F5C1500053BB8 /* Assets.xcassets in Resources */,
+				60496FA02C0F5C1500053BB8 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60496F8C2C0F5C1500053BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60496FD82C0F5C1500053BB8 /* index.html in Resources */,
+				60496FDF2C0F5C1500053BB8 /* robots.txt in Resources */,
+				60496FD72C0F5C1500053BB8 /* favicon.ico in Resources */,
+				60496FDB2C0F5C1500053BB8 /* logo128.png in Resources */,
+				60496FDA2C0F5C1500053BB8 /* logo48.png in Resources */,
+				60496FDE2C0F5C1500053BB8 /* manifest.json in Resources */,
+				60496FDC2C0F5C1500053BB8 /* asset-manifest.json in Resources */,
+				60496FD62C0F5C1500053BB8 /* logo16.png in Resources */,
+				60496FDD2C0F5C1500053BB8 /* static in Resources */,
+				60496FE02C0F5C1500053BB8 /* logo192.png in Resources */,
+				60496FD92C0F5C1500053BB8 /* logo512.png in Resources */,
+				60496FE12C0F5C1500053BB8 /* logo32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60496F962C0F5C1500053BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60496FCC2C0F5C1500053BB8 /* index.html in Resources */,
+				60496FD32C0F5C1500053BB8 /* robots.txt in Resources */,
+				60496FCB2C0F5C1500053BB8 /* favicon.ico in Resources */,
+				60496FCF2C0F5C1500053BB8 /* logo128.png in Resources */,
+				60496FCE2C0F5C1500053BB8 /* logo48.png in Resources */,
+				60496FD22C0F5C1500053BB8 /* manifest.json in Resources */,
+				60496FD02C0F5C1500053BB8 /* asset-manifest.json in Resources */,
+				60496FCA2C0F5C1500053BB8 /* logo16.png in Resources */,
+				60496FD12C0F5C1500053BB8 /* static in Resources */,
+				60496FD42C0F5C1500053BB8 /* logo192.png in Resources */,
+				60496FCD2C0F5C1500053BB8 /* logo512.png in Resources */,
+				60496FD52C0F5C1500053BB8 /* logo32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60496F6B2C0F5C1500053BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60496FA72C0F5C1500053BB8 /* ViewController.swift in Sources */,
+				60496F732C0F5C1500053BB8 /* AppDelegate.swift in Sources */,
+				60496F752C0F5C1500053BB8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60496F7D2C0F5C1500053BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60496FA82C0F5C1500053BB8 /* ViewController.swift in Sources */,
+				60496F842C0F5C1500053BB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60496F8A2C0F5C1500053BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60496FAB2C0F5C1500053BB8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60496F942C0F5C1500053BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60496FAC2C0F5C1500053BB8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60496F912C0F5C1500053BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60496F8D2C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension (iOS) */;
+			targetProxy = 60496F902C0F5C1500053BB8 /* PBXContainerItemProxy */;
+		};
+		60496F9B2C0F5C1500053BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60496F972C0F5C1500053BB8 /* UBC Workday Side by Side Calendar Extension (macOS) */;
+			targetProxy = 60496F9A2C0F5C1500053BB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60496F622C0F5C1400053BB8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60496F632C0F5C1400053BB8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		60496F762C0F5C1500053BB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60496F772C0F5C1500053BB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		60496F792C0F5C1500053BB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60496F7A2C0F5C1500053BB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60496F852C0F5C1500053BB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60496F862C0F5C1500053BB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60496FAD2C0F5C1500053BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60496FAE2C0F5C1500053BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		60496FB02C0F5C1500053BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9533QUQ9VG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UBC Workday Side by Side Calendar Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.UBC-Workday-Side-by-Side-Calendar.Extension";
+				PRODUCT_NAME = "UBC Workday Side by Side Calendar Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60496FB12C0F5C1500053BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9533QUQ9VG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UBC Workday Side by Side Calendar Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.UBC-Workday-Side-by-Side-Calendar.Extension";
+				PRODUCT_NAME = "UBC Workday Side by Side Calendar Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60496FB42C0F5C1500053BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9533QUQ9VG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UBC Workday Side by Side Calendar";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.UBC-Workday-Side-by-Side-Calendar";
+				PRODUCT_NAME = "UBC Workday Side by Side Calendar";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60496FB52C0F5C1500053BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9533QUQ9VG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UBC Workday Side by Side Calendar";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.UBC-Workday-Side-by-Side-Calendar";
+				PRODUCT_NAME = "UBC Workday Side by Side Calendar";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60496FB72C0F5C1500053BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/UBC Workday Side by Side Calendar.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UBC Workday Side by Side Calendar Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.UBC-Workday-Side-by-Side-Calendar.Extension";
+				PRODUCT_NAME = "UBC Workday Side by Side Calendar Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		60496FB82C0F5C1500053BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/UBC Workday Side by Side Calendar.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UBC Workday Side by Side Calendar Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.UBC-Workday-Side-by-Side-Calendar.Extension";
+				PRODUCT_NAME = "UBC Workday Side by Side Calendar Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		60496FBB2C0F5C1500053BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/UBC Workday Side by Side Calendar.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UBC Workday Side by Side Calendar";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.UBC-Workday-Side-by-Side-Calendar";
+				PRODUCT_NAME = "UBC Workday Side by Side Calendar";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		60496FBC2C0F5C1500053BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/UBC Workday Side by Side Calendar.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UBC Workday Side by Side Calendar";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.UBC-Workday-Side-by-Side-Calendar";
+				PRODUCT_NAME = "UBC Workday Side by Side Calendar";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60496F5F2C0F5C1400053BB8 /* Build configuration list for PBXProject "UBC Workday Side by Side Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60496FAD2C0F5C1500053BB8 /* Debug */,
+				60496FAE2C0F5C1500053BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60496FAF2C0F5C1500053BB8 /* Build configuration list for PBXNativeTarget "UBC Workday Side by Side Calendar Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60496FB02C0F5C1500053BB8 /* Debug */,
+				60496FB12C0F5C1500053BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60496FB32C0F5C1500053BB8 /* Build configuration list for PBXNativeTarget "UBC Workday Side by Side Calendar (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60496FB42C0F5C1500053BB8 /* Debug */,
+				60496FB52C0F5C1500053BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60496FB62C0F5C1500053BB8 /* Build configuration list for PBXNativeTarget "UBC Workday Side by Side Calendar Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60496FB72C0F5C1500053BB8 /* Debug */,
+				60496FB82C0F5C1500053BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60496FBA2C0F5C1500053BB8 /* Build configuration list for PBXNativeTarget "UBC Workday Side by Side Calendar (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60496FBB2C0F5C1500053BB8 /* Debug */,
+				60496FBC2C0F5C1500053BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60496F5C2C0F5C1400053BB8 /* Project object */;
+}
